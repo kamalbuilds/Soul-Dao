@@ -1,0 +1,45 @@
+{
+  "name": "masa-market",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@celo/contractkit": "^2.3.0",
+    "@celo/identity": "^3.0.1",
+    "@celo/react-celo": "^4.2.1",
+    "@headlessui/react": "^1.7.4",
+    "@heroicons/react": "^2.0.13",
+    "@next/font": "^13.1.4",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.8",
+    "autoprefixer": "^10.4.13",
+    "bignumber.js": "^9.0.2",
+    "blind-threshold-bls": "https://github.com/celo-org/blind-threshold-bls-wasm#3d1013a",
+    "dtrace-provider": "^0.8.8",
+    "next": "13.1.4",
+    "postcss": "^8.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.2.0",
+    "react-modal": "^3.16.1",
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.23",
+    "@types/react": "17.0.43",
+    "@types/react-dom": "17.0.14",
+    "eslint": "8.12.0",
+    "eslint-config-next": "13.1.4",
+    "typescript": "4.6.3"
+  },
+  "browser": {
+    "@celo/poprf": false,
+    "source-map-support": false,
+    "net": false
+  }
+}
