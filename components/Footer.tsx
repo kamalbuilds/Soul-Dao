@@ -30,6 +30,7 @@ export default function Footer() {
             </a>
           ))}
         </div>
+        <div>Made with Love by Masa Marketplace Team</div>
       </div>
     </footer>
   );

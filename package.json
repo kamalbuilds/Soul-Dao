@@ -21,7 +21,7 @@
     "bignumber.js": "^9.0.2",
     "blind-threshold-bls": "https://github.com/celo-org/blind-threshold-bls-wasm#3d1013a",
     "dtrace-provider": "^0.8.8",
-    "next": "13.1.4",
+    "next": "^13.4.6",
     "postcss": "^8.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",

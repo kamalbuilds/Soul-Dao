@@ -48,13 +48,13 @@ export default function Header() {
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   <div className="inline-flex items-center px-1 pt-1 text-xl font-medium text-gray-900">
                     <div className={spectral.className}>
-                      Phone Number Issuer
+                      Masa Marketplace
                     </div>
                   </div>
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex text-sm items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <div>Issuer: {issuerAddress}</div>
+                <div>Phone Number Issuer: {issuerAddress}</div>
               </div>
             </div>
           </div>
