@@ -36,21 +36,22 @@ export default function Header() {
                 </Disclosure.Button>
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
+                    <div className="inline-flex items-center px-1 pt-1 text-xl font-medium text-gray-900">
+                      <div className={spectral.className}>
+                        Soul Dao
+                      </div>
+                </div>
+                </div>
                 <div className="flex flex-shrink-0 items-center">
+                  Powered by
                   <Image
-                    className="block h-8 w-auto lg:block"
+                    className="block h-4 w-auto mx-4 lg:block"
                     src="/logo.svg"
-                    width="24"
-                    height="24"
+                    width="12"
+                    height="12"
                     alt="Celo Logo"
                   />
-                </div>
-                <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                  <div className="inline-flex items-center px-1 pt-1 text-xl font-medium text-gray-900">
-                    <div className={spectral.className}>
-                      Masa Marketplace
-                    </div>
-                  </div>
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex text-sm items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
