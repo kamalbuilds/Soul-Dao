@@ -3,6 +3,8 @@ Pay with your phone anywhere @market
 
 ## Getting Started
 
+https://verify2-6635-96tetk.twil.io/
+
 Set up your Twilio Verify backend
 Sign up for or log in to your Twilio account and create a new Verify Service. This is what will allow you to send SMS verification messages.
 
