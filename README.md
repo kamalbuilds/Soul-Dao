@@ -1,11 +1,11 @@
-## soul Dao
-Pay with your phone anywhere @market
+## Soul Dao
+
+Connect your Souls to DAO , Connect Socially and get payed through ph numbers
 
 https://explorer.celo.org/alfajores/tx/0x7eaf7195d1d56452ce3ac77ba99b6844999aa91e3917002b874fe3b52a207a8f/internal-transactions
 The identifier is a sha3 hash of the ph no that is registered
 
 ## Getting Started
-
 
 Set up your Twilio Verify backend
 
